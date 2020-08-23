@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  margin: 2% auto;
+  background-color: rgba(74, 74, 74, 1);
+  color:white;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.heading {
+  margin-bottom:5%;
+  text-align: center;
+}
+
+.heading h1 {
+  color:orange;
+}
+
+#underline {
+  width: 20%;
+  height: 5px;
+  background-color: orange;
+  margin: 2% auto;
+}
+
+#random {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 2% 1%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color:orangered;
+  color:white;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+}
+
+.card {
+  text-align: center;
+  width: 70%;
+  margin: 2% auto;
+}
+
+#imgcont {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 5px white solid;
+  box-shadow: 2px 2px 5px black;
+}
+
+img {
+  width:100%;
+  height: 100%;
+}
+
+h3 {
+  margin-top: 2%;
+  font-size: 150%;
+}
+
+h4,p {
+  margin-top: 2%;
+  font-size: 120%;
+}
+
+p {
+  text-align: justify;
+}
+
+.btncont {
+  margin-top: 3%;
+}
+#next,#prev {
+color:orange;
+text-shadow: 2px 2px 5px black;
+}
